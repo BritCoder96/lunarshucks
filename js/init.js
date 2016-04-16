@@ -40,6 +40,6 @@ function initializeClock(id, endtime) {
 
 $(document).ready(function() {
 						   
-  var deadline = new Date(Date.parse(new Date("27 april 2016 17:00:00"));
+  var deadline = new Date(Date.parse(new Date("27 april 2016 17:00:00")));
   initializeClock('clockdiv', deadline);
 });	
