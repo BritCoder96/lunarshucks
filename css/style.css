@@ -41,6 +41,10 @@ h1{
   margin: 40px 0px 20px;
 }
 
+.facebook-btns {
+  margin: 0 auto;
+}
+
 #clockdiv{
     font-family: sans-serif;
     color: #fff;
