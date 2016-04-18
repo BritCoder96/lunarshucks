@@ -45,7 +45,9 @@ AutoRefresh = function(t) {
 
 $(document).ready(function() {
 						   
-  var deadline = new Date(Date.parse(new Date("27 april 2016 17:00:00")));
-  initializeClock('clockdiv', deadline);
-  return AutoRefresh(30000);
+  if (document.getElementById('clockdiv').length) {
+    var deadline = new Date(Date.parse(new Date("27 april 2016 17:00:00")));
+    initializeClock('clockdiv', deadline);
+    return AutoRefresh(30000);
+  }
 });	
