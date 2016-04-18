@@ -37,9 +37,15 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
+var AutoRefresh;
+
+AutoRefresh = function(t) {
+    setTimeout('location.reload(true);', t);
+};
 
 $(document).ready(function() {
 						   
   var deadline = new Date(Date.parse(new Date("27 april 2016 17:00:00")));
   initializeClock('clockdiv', deadline);
+  return AutoRefresh(30000);
 });	
