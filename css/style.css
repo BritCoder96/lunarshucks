@@ -198,7 +198,7 @@ h1{
 	}
   .notified{
     width: 60%;
-    margin-left: 50%;
+    margin-left: 6em;
     background:#FFF;
   }
   .notified input[type="text"]{
