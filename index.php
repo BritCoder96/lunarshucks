@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
               setFrom('guydelperthehelper@gmail.com')->
                        setSubject("LunarShucks Email List Submission")->
                                 setText("Hi " .  $_POST['email'] . "!" . "Thanks for your interest in Lunar Shucks! We need some help defeating the Archeologist, so stay tuned for more info!")->
-                                         setHtml("<p>Hi " .  $_POST['email'] . "! </p><br></br>" . "<p>Thanks for your interest in Lunar Shucks! We need some help defeating the Archeologist, so stay tuned for more info!</p><br></br> </p>-- The Study Clash Team</p>");
+                                         setHtml("<p>Hi " .  $_POST['email'] . "! </p><br></br>" . "<p>Thanks for your interest in Lunar Shucks! We need some help defeating the Archeologist, so stay tuned for more info!</p><br></br>");
    $response = $sendgrid->send($message); 
    echo "Mail Sent. Thank you.";
 }
