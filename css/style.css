@@ -41,6 +41,38 @@ h1{
   margin: 40px 0px 20px;
 }
 
+.notified{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2em;
+  background:#FFF;
+}
+.notified input[type="text"]{
+  width: 73.5%;
+  padding:12px;
+  color:#888;
+  font-size:0.875em;
+  font-family: 'Open Sans', sans-serif; 
+   border:none;
+   outline:none;
+}
+.notified input[type="submit"]{
+  background:#000;
+  padding: 12px;
+  border:none;
+  color:#FFF;
+  font-family: 'Open Sans', sans-serif; 
+   cursor:pointer;
+   transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+.notified input[type="submit"]:hover{
+  background:#555;
+}
+.notified form{
+  text-align:center;
+}
 .facebook-btns {
   margin-left: 10em;
 }
@@ -196,35 +228,4 @@ h1{
 	ul#countdown span {
 		font-size: 3em;
 	}
-  .notified{
-    width: 60%;
-    margin-left: 6em;
-    background:#FFF;
-  }
-  .notified input[type="text"]{
-    width: 73.5%;
-    padding:12px;
-    color:#888;
-    font-size:0.875em;
-    font-family: 'Open Sans', sans-serif; 
-     border:none;
-     outline:none;
-  }
-  .notified input[type="submit"]{
-    background:#000;
-    padding: 12px;
-    border:none;
-    color:#FFF;
-    font-family: 'Open Sans', sans-serif; 
-     cursor:pointer;
-     transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
-  }
-  .notified input[type="submit"]:hover{
-    background:#555;
-  }
-  .notified form{
-    text-align:center;
-  }
 }
